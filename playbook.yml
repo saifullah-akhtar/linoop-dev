@@ -1,0 +1,8 @@
+---
+- name: Test first playbook
+  hosts:
+  tasks:
+    - name: starting httpd
+      service:
+        name: httpd
+        state: started
